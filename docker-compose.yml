@@ -9,7 +9,7 @@ services:
       - .:/ccl
     entrypoint:
       - python
-      - app.py
+      - ccl.py
 #    depends_on:
 #      - db
 #  db:
